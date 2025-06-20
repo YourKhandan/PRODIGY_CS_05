@@ -6,7 +6,9 @@ import threading
 
 def create_app():
     app = Flask(__name__)
-    app.config['SECRET_KEY'] = 'your secret windows key'#to access you
+    app.config['SECRET_KEY'] = 'your secret key'
+    #to access you need to type in terminal python -c "import secrets; print(secrets.token_hex(32))"
+    #so after getting it from your terminal... paste instead of 'your secret key'
 
     from .routes import main
     app.register_blueprint(main)
