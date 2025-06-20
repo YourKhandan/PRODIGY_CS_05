@@ -15,7 +15,11 @@ NetPacSniff is a real-time packet sniffer tool built with:
 - Live display of captured traffic on a web interface  
 - Clean and modern frontend  
 - Lightweight & easy to run locally
-
+## Inside __init__.py... you need to change the code at line  and insert your own secret key.. details are given at the __init__.py code
+ What is SECRET_KEY in Flask?
+ Flask uses SECRET_KEY to secure cookies, sessions, forms and tokens.
+Without it, users could tamper with data stored on their browser and send it back.
+It basically signs (encrypts) the session data so Flask can verify it's valid.
 
 ## ⚠ Important Notice
 
