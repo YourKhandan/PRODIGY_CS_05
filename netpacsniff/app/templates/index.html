@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NetPacSniff - Real-Time Packet Sniffer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #0f172a; color: #f1f5f9; margin: 0; }
+        header { background: #1e293b; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { margin: 0; font-size: 24px; color: #38bdf8; }
+        nav a { color: #f1f5f9; margin-left: 20px; text-decoration: none; font-size: 18px; }
+        nav a:hover { color: #38bdf8; }
+        table { width: 90%; margin: 20px auto; border-collapse: collapse; }
+        th, td { border: 1px solid #334155; padding: 8px; text-align: center; }
+        th { background: #1e293b; }
+        tr:nth-child(even) { background: #1e1b4b; }
+        tr:hover { background: #3b0764; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Network Packet Sniffer</h1>
+        <nav>
+            <a href="/">Live Capture</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Domain</th>
+                <th>Protocol</th>
+                <th>IP</th>
+            </tr>
+        </thead>
+        <tbody id="packetTable"></tbody>
+    </table>
+
+    <script src="/static/main.js"></script>
+</body>
+</html>
