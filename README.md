@@ -1,12 +1,12 @@
 # PRODIGY_CS_05
-# NetPacSniff - Real-Time Packet Sniffer 🕵️‍♂️
+# NetPacSniff - Real-Time Packet Sniffer 
 
 NetPacSniff is a real-time packet sniffer tool built with:
 
-- 🐍 **Python**
-- ⚡ **Flask + Flask-SocketIO**
-- 🎨 **HTML, CSS, JavaScript** (clean UI)
-- 📦 **Scapy** for packet sniffing
+-  **Python**
+-  **Flask + Flask-SocketIO**
+-  **HTML, CSS, JavaScript** (clean UI)
+-  **Scapy** for packet sniffing
 
 
 ## 🚀 Features
