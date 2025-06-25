@@ -52,7 +52,7 @@ python run.py
 
 4.🌐 Access
 Once running, open your browser at
-http://127.0.0.1:7000
+http://127.0.0.1:7000 or run at http://127.0.0.1:4464 or at http://192.168.31.28:4464
 
 You’ll see live DNS packets displayed on the web interface.
 
