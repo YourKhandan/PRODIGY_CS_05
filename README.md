@@ -41,7 +41,7 @@ On **Linux/macOS**, use `sudo` if needed.
 ## 🛠 Setup Instructions
 
 1. Clone the repository:
-git clone https://github.com/yourusername/netpacsniff.git
+git clone https://github.com/YourKhandan/netpacsniff.git
 cd netpacsniff
 
 2. Install Dependencies
